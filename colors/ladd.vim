@@ -1,7 +1,7 @@
 " Vim color file
 "
 " Author: João Pedro Xavier <joaopedroaxavier@gmail.com>
-" Last Change:  05/17/2017
+" Last Change:  07/04/2017
 " 
 
 if exists("syntax_on")
@@ -11,10 +11,10 @@ let g:colors_name="ladd"
 
 highlight clear Normal
 
-hi Normal																	ctermfg=255		ctermbg=16
+hi Normal																	ctermfg=224		ctermbg=233
 hi CursorLine								cterm=none									ctermbg=0
 hi CursorLineNr														ctermfg=191		ctermbg=232
-hi LineNr																	ctermfg=43		ctermbg=233
+hi LineNr																	ctermfg=43		ctermbg=234
 hi VertSplit		term=none		cterm=none		ctermfg=16		ctermbg=226
 hi Visual																	ctermfg=235		ctermbg=42
 
@@ -27,7 +27,7 @@ hi StatusLine															ctermfg=206		ctermbg=53
 hi StatusLineNC														ctermfg=53		ctermbg=252
 hi WildMenu																ctermfg=232		ctermbg=197	
 
-hi Constant									cterm=bold	 	ctermfg=63
+hi Constant									cterm=bold	 	ctermfg=164
 hi Delimiter 															ctermfg=241
 hi Directory															ctermfg=23
 hi Exception															ctermfg=160
@@ -36,7 +36,7 @@ hi Label																	ctermfg=49
 hi Operator																ctermfg=243
 hi Repeat 																ctermfg=161
 hi Statement															ctermfg=49
-hi Type																		ctermfg=208
+hi Type																		ctermfg=214
 
 hi Comment									cterm=italic	ctermfg=240
 hi PreProc																ctermfg=197
@@ -64,7 +64,7 @@ hi PmenuSel																ctermfg=166		ctermbg=255
 hi PmenuSbar																						ctermbg=235
 hi PmenuThumb																						ctermbg=166
 
-hi WarningMsg																						ctermbg=136
+hi WarningMsg															ctermfg=232		ctermbg=136
 
 " Some custom highlights (See ~/.vim/after/syntax/cpp.vim)
 hi Typedef									cterm=none		ctermfg=171
